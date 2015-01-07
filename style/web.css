@@ -1,0 +1,269 @@
+body{
+	background: #ECECEC;
+	/*letter-spacing: 0.2px;*/
+}
+.arrow-down {
+	width: 0; 
+	height: 0; 
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;	
+	border-top: 10px solid #443E3E;
+}
+
+.container {
+	width:960px;
+	margin:0 auto;
+}
+header{
+ background: #443E3E;
+ height:69px;
+}
+
+footer{
+	clear:both;
+	background: #443E3E;
+ 	overflow: hidden;
+ 	padding: 50px 70px;
+ 	margin-top: 10px;
+ 	color: #FFFEFF;
+ 	margin-bottom: 50px;
+ }
+footer a,footer{
+	color: #FFFEFF;
+}
+
+footer ul{
+	margin:0px;
+	list-style-type: none;
+	padding: 0;
+}
+footer li{
+	margin: 10px 0;
+	font-size: 16px;
+}
+
+footer > div{
+	float: left;
+	width: 25%;
+}
+
+a,a:visited{
+	text-decoration: none;
+}
+header a{ 
+	color:#9B9B9B;
+}
+.cart a{color:#fff;font-weight: 500;font-size: 123%;}
+.cart a span{color:#13C6FF;}
+header > img{float:left;}
+header ul{float : right;margin-top: 25px;line-height: }
+header li{
+	padding-right: 20px;
+	list-style-type: none;
+	float:left;
+}
+
+nav li{
+	list-style-type: none;
+	font-weight: normal;
+	 margin-bottom: 10px;
+}
+nav > ul > li{
+	float:left;
+	list-style-type: none;
+	padding: 13px 40px 12px;
+	font-size: 15px;
+	font-weight: 500;
+	background: #fff;
+	border-right:1px solid #ccc;
+}
+
+nav > ul > li:hover{
+	padding-bottom: 13px;
+	color:#E8911E;
+}
+
+nav > ul > li:hover > ul{
+	display: block;
+}
+
+nav > ul > li:hover > a{
+	padding-bottom: 13px;
+	color:#E8911E;
+	text-decoration: none;
+}
+
+
+nav > ul  a{
+	color:#666;
+}
+
+nav > ul {
+	margin:10px 0;
+	height: 40px; 
+	background-color: #FFF;
+	border:1px solid #ccc;
+	padding:0;
+	position: relative;
+}
+nav > ul > li > ul {
+	display: none;
+	position: absolute;
+	left:-1px;
+	right: 0;
+	background-color: #fff;
+	top:41px;
+	border:1px solid #ccc;
+	border-top:none;
+}
+
+nav > ul > li > ul {
+	padding: 0px;
+	width: 100%;
+}
+nav .megaMenu > li{
+	overflow: hidden;
+	float: left;
+	margin:0;
+	padding: 0;
+	color:#888;
+}
+
+nav .megaMenu.col5 > li{
+	width: 20%;
+}
+
+nav h3{
+	color:#008ab5;
+	margin-top: 30px;
+	margin-bottom: 0;
+	padding-left: 22px;
+	padding-bottom: 18px;
+	border-left:1px solid #ccc;
+}
+nav .megaMenu >  li:first-child ul{
+	border:none;
+}
+nav .megaMenu > li:first-child h3{
+	border:none;
+}
+nav .megaMenu ul{
+	border-left:1px solid #ccc;
+}
+
+.content{
+	overflow: hidden;
+	clear:both;
+}
+
+.rightContent h1{font-size:24px;margin:20px 0;font-weight: 500;}
+
+
+.leftMenu{
+	float:left;
+	width: 222px;
+	border:1px solid #ccc;
+	float: left;
+	background:#fff;
+}
+
+.leftMenu h1{
+	background: #ECECEC;
+	margin:0;
+	background: #443E3E;
+	padding:12px 15px;
+	color:#FFFEFF;
+	font-size: 18px;
+}
+
+.leftMenu h3{
+	margin:5px 0 5px 13px;
+}
+
+.leftMenu ul{
+	margin-left: 10px;
+}
+.leftMenu .arrow-down{
+	margin-left: 15px;
+}
+
+.leftMenu li{
+	list-style-image: url(../images/arrow.png);
+	padding: 5px 0;
+	font-size: 14px;
+}
+.leftMenu a{
+	color:#777;
+}
+
+.rightContent{
+	float:right;
+	margin-left:8px;
+	width:728px;
+}
+
+.productList{
+	background:#fff;
+	overflow: hidden;
+	border-left: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	margin-top: 8px;
+}
+
+.productList > div{
+	width:180.7px;
+	float: left;
+	border:1px solid #ccc;
+	border-left: none;
+	border-top: none;
+	text-align: center;
+	padding:20px 0 40px;
+
+}
+
+.productList > div > div{
+	padding-left: 40px;
+	text-align: left;
+}
+.productList .title{
+	font-size: 15px;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+
+.productList .price{
+	color:#008AB5;
+	font-size: 15px;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+.productList .listPrice{
+	font-size: 10px;
+	color:#999;
+}
+
+.expandable{
+	height: 95px;
+	overflow: hidden;
+}
+.expandable + a{
+	display: inline-block;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    color:#E59218;
+}
+.expanded .expandable{height:auto;}
+
+.expandable + a span{
+	display: none;
+}
+.expandable + a span:first-child{
+	display: inline;
+}
+
+.expanded .expandable + a span{
+	display: inline;
+}
+.expanded .expandable + a span:first-child{
+	display: none;
+}

@@ -1,0 +1,30 @@
+body{
+	background: #ECECEC;
+}
+
+.container {
+    width: 960px;
+    /*margin: 0 auto;*/
+}
+
+.header {
+	height: 69px;
+	position: relative;
+}
+
+.header div.header-menu{
+	position: absolute;
+	top: 40px;
+}
+
+.header iv.header-menu ul {
+    float: right;
+    margin-top: 25px;
+}
+
+/*.header img.logo{
+	float: left;
+}*/
+ul, ol {
+	list-style: none;
+}
